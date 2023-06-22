@@ -1,0 +1,32 @@
+#title{
+    text-align:left;
+    padding: 7px 10px;
+    padding-left: 30px;
+    font-size: 25px;
+    letter-spacing: 20px;
+    font-weight: bold;
+    border: 5px solid #e893f3;
+    border-style: dashed;
+    color: rgb(223, 173, 205);
+    background-color: rgb(248, 73, 103);
+    margin: 3px 3px 3px   
+
+}
+#lienzo{
+    align-content: center;
+    background-color: rgb(233, 175, 225);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+section{
+    padding-left: 0;
+    padding-right: 0;
+    width: 800px;
+    position: relative;
+    margin: auto;
+    display: block;
+    border: 5px solid #eb125a;
+}

@@ -1,0 +1,31 @@
+#title{
+    text-align: center;
+    padding: 5px;
+    font-size: 26px;
+    font-weight: bold;
+    border: 8px solid #dd6060;
+    border-style: double;
+    color: blue;
+    background-color: rgb(143, 228, 231);
+  
+
+}
+#lienzo{
+    align-content: center;
+    background-color: rgb(139, 187, 219);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+section{
+    padding-left: 0;
+    padding-right: 0;
+    width: 800px;
+    position: relative;
+    margin: auto;
+    display: block;
+    border-style: dashed;
+    border: 6px solid #dd6060;
+}

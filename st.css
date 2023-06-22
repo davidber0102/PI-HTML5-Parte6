@@ -1,0 +1,21 @@
+#title{
+    text-align: center;
+    padding: 10px;
+}
+#lienzo{
+    align-content: center;
+    background-color: aqua;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+section{
+    padding-left: 0;
+    padding-right: 0;
+    width: 500px;
+    position: relative;
+    margin: auto;
+    display: block;
+}
