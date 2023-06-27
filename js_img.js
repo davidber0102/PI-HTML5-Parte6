@@ -23,22 +23,16 @@ function comenzar(){
     var imagen=new Image();
     imagen.src="imh/img03.jpg";
     imagen.addEventListener("load", manipilarimagen, false);
-
-
-
-
 }
 
 function manipilarimagen(e){
     imagen=e.target;
-    lienzo.drawImage(imagen, 0, 0);
-
-    var info_img=lienzo.getImageData(0,0,145,145);
-
+    lienzo.drawImage(imagen,0,0);
+    var info_img=lienzo.getImageData(0,0,195,195);
     var posicion;
 
-    for (x=0;x<=145;x++){
-        for(y=0;y<=145;y++){
+    for (x=0;x<=195;x++){
+        for(y=0;y<=195;y++){
             posicion=(info_img.width*4*y)+(x*4);
 
             info_img.data[posicion]=255-info_img.data[posicion];
